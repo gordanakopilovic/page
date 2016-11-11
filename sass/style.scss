@@ -1,0 +1,304 @@
+ body{
+ font-size:14px;
+ font-family:"nexa_light"!important;
+ height:100%;
+ background-attachment: fixed;
+ background-position: center;
+ background-repeat: no-repeat;
+ background-size: cover;
+
+ }
+ 
+
+ 
+ .main-slide{
+  max-width:100%!important;
+  padding:0!important;
+  margin:0!important;
+  height:auto;
+ }
+ 
+ .container-fluid {
+    padding: 0px!important;
+}
+ 
+.front{
+background-color:#120149;
+height:auto !important; 
+ }
+ 
+ //////////////////////////////////////////////nav-bar///////////////////
+
+ #hp_navbar_fixed .dropdown-toggle,
+  #hp_navbar .dropdown-toggle{
+ background-color:#D52133;
+ height:50px;
+ display:block!important;
+ }
+ 
+.navbar-collapse{
+display:block!important;
+ }
+
+  .navbar-nav >.links>a{
+ color:#FFF;
+ font-weight:bold!important;
+ border-left:1px solid red;
+ text-transform:uppercase;
+ }
+ 
+  .navbar-nav  >.links >a:hover{
+  background-color:#000;
+ }
+ 
+.bars{
+ color:white;
+}
+ 
+.links{
+font-size:15px;
+font-weight:bold;
+color:white!important;
+}
+
+#soc-icons{
+line-height:30%;
+padding-right:40px;
+}
+ 
+#soc-icons li{
+display:inline-block;
+list-style-type:none;
+padding-top:15px;
+margin:0!important;
+}
+
+#soc-icons li a{
+ font-size:1.2em;
+ padding-top:0;
+ padding-left:10px;
+ color:white;
+}
+
+.sign-up{
+ text-decoration:none!important;
+ font-size:10px;
+}
+
+
+.block-language{
+  padding-right:20px;
+  
+
+}
+
+.language li{
+padding-top:15px;
+display:inline-block;
+list-style-type:none;
+float:right;
+margin:0;
+padding-right:2px;
+}
+
+.language li a{
+font-weight:800;
+text-align:center;
+color:white;
+text-decoration:none;
+}
+
+.language li a:hover{
+ border-top: 5px solid #D52133;
+
+}
+////////////////////////////////////////drop-down
+
+.dropdown{
+position:relative;
+
+}
+
+
+#drop{
+padding-top:0;
+padding-bottom:0;
+border-radius:none;
+left:53px;
+  
+}
+
+.wrapper-menu{
+ width:260px;
+ display:inline-block;
+ background-color:white;
+}
+
+.wrapper-menu li{
+ border-bottom:1px solid #000;
+ text-align:center;
+}
+
+#drop .wrapper-menu li:hover{
+background-color:gray!important;
+}
+
+#drop .wrapper-menu li a{
+ font-size:24px;
+ font-family:"nexa_bold";
+
+ text-decoration:none;
+ color:#000;
+ border-radius:none;
+ 
+}
+
+.dropdown-submenu {
+    position: relative;
+}
+
+#second >li> a {
+font-size:14px!important;
+
+}
+
+#second >li> a:hover {
+background-color:gray!important;
+
+}
+.dropdown-submenu .dropdown-menu{
+    top:0;
+    left: 100%;
+    margin-top: -1px;
+    }
+
+.dropdown-submenu #secound li a{
+    font-size:14px;
+}
+
+#drop>.dance {
+ background-color:#CC9933;
+  font-size:24px;
+  text-align:center;
+  font-family:"nexa_bold";
+  text-decoration:none;
+  padding:0;
+  margin:0;
+}
+
+
+@media (max-width: 760px){
+#drop .wrapper-menu{
+width:100%;
+}
+}
+
+.navbar-nav > .dropdown > button{
+
+
+}
+
+//////////////////////////////////////////////carousel
+.carousel-indicators li{
+background-color:#424242!important;
+border:none!important;
+width:20px !important;
+height:20px !important;
+}
+
+@media (min-width: 360px) and (max-width: 1300px) {
+  #text li{
+    margin-bottom:650px!important;
+  }
+}
+.carousel-indicators .active{
+background-color:#fd0000!important;
+border:none!important;
+width:20px !important;
+height:20px !important;
+ }
+ 
+ 
+ @media (min-width: 360px) {
+  .carousel {
+    min-height: 662px;
+   margin-bottom: 60px;
+   }
+  }
+ 
+  .carousel-caption {
+    z-index:5;
+    }
+
+   .carousel .item {
+    min-height: 662px;
+    }
+   .carousel-inner > .item > img {
+   position: absolute;
+   top: 0;
+   left: 0;
+   min-width: 100%;
+   min-height: 662px;
+  }
+ 
+ 
+ //////////////////////////////////////////////
+ 
+ .br-back{
+ position:relative;
+ width:100%;
+ height:80px;
+ }
+///////////////////////////////////////////
+
+.article {
+   overflow-y: scroll;
+   
+   
+ }
+
+@media only screen and (min-width:980px) and (max-width: 1300px) {
+   .article {
+      min-width:100%!important;
+   }
+
+ }
+ 
+ 
+ 
+ .article h2{
+ border-bottom:2px solid #000;
+ display:inline block;
+ margin:0 0 20px;
+ padding:0 35px 25px 0;
+ font-family:"nexa_bold"!important;
+ font-size:32px;
+ font-weight:500;
+ text-transform: uppercase;
+ }
+ 
+.article p{
+ font-family:"nexa_light"!important;
+ font-size:24px;
+ }
+ 
+ .red{
+ color:red;
+ }
+ 
+
+ 
+ ////////////////////////////////////////////
+.sponzori {
+    padding-bottom:50px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+ 
+ }
+ 
+#myCarousel{
+background-color:white;
+
+ }
+ 
